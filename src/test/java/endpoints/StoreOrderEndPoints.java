@@ -13,7 +13,8 @@ import io.restassured.response.Response;
 public class StoreOrderEndPoints {
 	public static Response createStoreOrder(payload.Store payload) {
 
-		Response response = given().contentType(ContentType.JSON).accept(ContentType.JSON).body(payload).when()
+		Response response = given().contentType(ContentType.JSON).accept(ContentType.JSON).body(payload)
+				.when()
 				.post(Routes.order_post);
 		return response;
 	}

@@ -31,16 +31,16 @@ public class StoreTests {
 	public void testPostOrder() {
 		logger.info("***************** order is creating ********************");
 	Response response = StoreOrderEndPoints.createStoreOrder(storepayload);
-			response.then().log().all();
+			//response.then().log().all();
 			logger.info("***************** order is created ********************");
 	Assert.assertEquals(response.getStatusCode(), 200);
 	}
 	
-	@Test(priority = 1)
+	@Test(priority = 1 , dependsOnMethods = {"testPostOrder"})
 	public void testGetOrder() {
 		logger.info("***************** Reading order Info ********************");
 	Response response =	StoreOrderEndPoints.readStoreOrder(this.storepayload.getId());
-	response.then().log().all();
+	//response.then().log().all();
 	logger.info("***************** order Info Displayed  ********************");
 	Assert.assertEquals(response.getStatusCode(), 200);
 		
@@ -50,7 +50,7 @@ public class StoreTests {
 	public void testDeleteOrder() {
 		logger.info("***************** order is deleting ********************");
 	Response response =	StoreOrderEndPoints.deleteStoreOrder(this.storepayload.getId());
-	response.then().log().all();
+	//response.then().log().all();
 	Assert.assertEquals(response.getStatusCode(), 200);
 	logger.info("***************** order is deleted ********************");
 		

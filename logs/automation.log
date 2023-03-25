@@ -1,0 +1,201 @@
+14:35:47.264 [main] INFO  test.UserTests - *********** Creating User ************
+14:35:52.808 [main] INFO  test.UserTests - ************* User is Created ***************
+14:35:52.829 [main] INFO  test.UserTests - ********** Reading User Info ***************
+14:35:54.158 [main] INFO  test.UserTests - **********User info  is displayed ***************
+14:35:54.162 [main] INFO  test.UserTests - ********** Updating user ***********
+14:35:56.872 [main] INFO  test.UserTests - ********** User Updated ***********
+14:35:58.489 [main] INFO  test.UserTests - *************** Deleting User **************
+14:36:00.968 [main] INFO  test.UserTests - *********** User Deleted ***************
+14:36:00.981 [main] INFO  test.StoreTests - ***************** order is creating ********************
+14:36:03.681 [main] INFO  test.StoreTests - ***************** order is created ********************
+14:36:03.687 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+14:36:04.955 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+14:36:04.957 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+14:36:06.396 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+14:47:55.917 [main] INFO  test.UserTests - *********** Creating User ************
+14:48:02.842 [main] INFO  test.UserTests - ************* User is Created ***************
+14:48:02.861 [main] INFO  test.UserTests - ********** Reading User Info ***************
+14:48:04.777 [main] INFO  test.UserTests - **********User info  is displayed ***************
+14:48:04.779 [main] INFO  test.UserTests - ********** Updating user ***********
+14:48:07.952 [main] INFO  test.UserTests - ********** User Updated ***********
+14:48:09.743 [main] INFO  test.UserTests - *************** Deleting User **************
+14:48:11.909 [main] INFO  test.UserTests - *********** User Deleted ***************
+14:48:11.923 [main] INFO  test.StoreTests - ***************** order is creating ********************
+14:48:14.189 [main] INFO  test.StoreTests - ***************** order is created ********************
+14:48:14.194 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+14:48:16.666 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+14:48:16.667 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+14:48:18.554 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+23:09:01.704 [main] INFO  test.UserTests - *********** Creating User ************
+23:09:10.906 [main] INFO  test.UserTests - ************* User is Created ***************
+23:09:10.912 [main] INFO  test.UserTests - ********** Reading User Info ***************
+23:09:15.963 [main] INFO  test.UserTests - **********User info  is displayed ***************
+23:09:15.966 [main] INFO  test.UserTests - ********** Updating user ***********
+23:09:23.056 [main] INFO  test.UserTests - ********** User Updated ***********
+23:09:28.869 [main] INFO  test.UserTests - *************** Deleting User **************
+23:09:33.518 [main] INFO  test.UserTests - *********** User Deleted ***************
+23:10:22.070 [main] INFO  test.UserTests - *********** Creating User ************
+23:10:29.968 [main] INFO  test.UserTests - ************* User is Created ***************
+23:10:30.117 [main] INFO  test.UserTests - ********** Reading User Info ***************
+23:10:40.377 [main] INFO  test.UserTests - **********User info  is displayed ***************
+23:10:40.381 [main] INFO  test.UserTests - ********** Updating user ***********
+23:10:47.436 [main] INFO  test.UserTests - ********** User Updated ***********
+23:10:52.313 [main] INFO  test.UserTests - *************** Deleting User **************
+23:10:59.429 [main] INFO  test.UserTests - *********** User Deleted ***************
+23:10:59.442 [main] INFO  test.StoreTests - ***************** order is creating ********************
+23:11:04.325 [main] INFO  test.StoreTests - ***************** order is created ********************
+23:11:04.330 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+23:11:11.137 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+23:11:11.141 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+23:11:20.916 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+23:17:52.637 [main] INFO  test.UserTests - *********** Creating User ************
+23:18:00.445 [main] INFO  test.UserTests - ************* User is Created ***************
+23:18:00.473 [main] INFO  test.UserTests - ********** Reading User Info ***************
+23:18:04.748 [main] INFO  test.UserTests - **********User info  is displayed ***************
+23:18:04.752 [main] INFO  test.UserTests - ********** Updating user ***********
+23:18:09.873 [main] INFO  test.UserTests - ********** User Updated ***********
+23:18:21.157 [main] INFO  test.UserTests - *************** Deleting User **************
+23:18:27.156 [main] INFO  test.UserTests - *********** User Deleted ***************
+23:18:27.170 [main] INFO  test.StoreTests - ***************** order is creating ********************
+23:18:31.177 [main] INFO  test.StoreTests - ***************** order is created ********************
+23:18:31.183 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+23:18:34.786 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+23:18:34.790 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+23:18:42.361 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+23:20:51.032 [main] INFO  test.UserTests - *********** Creating User ************
+23:20:57.387 [main] INFO  test.UserTests - ************* User is Created ***************
+23:20:57.404 [main] INFO  test.UserTests - ********** Reading User Info ***************
+23:21:02.687 [main] INFO  test.UserTests - **********User info  is displayed ***************
+23:21:02.692 [main] INFO  test.UserTests - ********** Updating user ***********
+23:21:06.552 [main] INFO  test.UserTests - ********** User Updated ***********
+23:21:14.938 [main] INFO  test.UserTests - *************** Deleting User **************
+23:21:19.944 [main] INFO  test.UserTests - *********** User Deleted ***************
+23:21:19.962 [main] INFO  test.StoreTests - ***************** order is creating ********************
+23:21:27.004 [main] INFO  test.StoreTests - ***************** order is created ********************
+23:21:27.010 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+23:21:34.345 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+23:21:34.349 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+23:21:40.584 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+23:22:38.837 [main] INFO  test.UserTests - *********** Creating User ************
+23:22:45.410 [main] INFO  test.UserTests - ************* User is Created ***************
+23:22:45.431 [main] INFO  test.UserTests - ********** Reading User Info ***************
+23:22:54.570 [main] INFO  test.UserTests - **********User info  is displayed ***************
+23:22:54.576 [main] INFO  test.UserTests - ********** Updating user ***********
+23:23:02.867 [main] INFO  test.UserTests - ********** User Updated ***********
+23:23:16.630 [main] INFO  test.UserTests - *************** Deleting User **************
+23:23:27.743 [main] INFO  test.UserTests - *********** User Deleted ***************
+23:23:27.757 [main] INFO  test.StoreTests - ***************** order is creating ********************
+23:24:52.851 [main] INFO  test.UserTests - *********** Creating User ************
+23:25:05.422 [main] INFO  test.UserTests - ************* User is Created ***************
+23:25:05.428 [main] INFO  test.UserTests - ********** Reading User Info ***************
+23:25:10.682 [main] INFO  test.UserTests - **********User info  is displayed ***************
+23:25:10.685 [main] INFO  test.UserTests - ********** Updating user ***********
+23:25:22.124 [main] INFO  test.UserTests - ********** User Updated ***********
+23:31:30.403 [main] INFO  test.UserTests - *********** Creating User ************
+23:31:42.680 [main] INFO  test.UserTests - ************* User is Created ***************
+23:31:42.699 [main] INFO  test.UserTests - ********** Reading User Info ***************
+23:31:49.613 [main] INFO  test.UserTests - **********User info  is displayed ***************
+23:31:49.618 [main] INFO  test.UserTests - ********** Updating user ***********
+23:31:57.303 [main] INFO  test.UserTests - ********** User Updated ***********
+23:32:09.623 [main] INFO  test.UserTests - *************** Deleting User **************
+23:32:15.681 [main] INFO  test.UserTests - *********** User Deleted ***************
+23:32:15.697 [main] INFO  test.StoreTests - ***************** order is creating ********************
+23:32:21.401 [main] INFO  test.StoreTests - ***************** order is created ********************
+23:32:21.407 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+23:32:25.670 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+23:32:25.674 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+23:32:30.776 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+00:21:09.947 [main] INFO  test.UserTests - *********** Creating User ************
+00:21:13.038 [main] INFO  test.UserTests - ************* User is Created ***************
+00:21:13.044 [main] INFO  test.UserTests - ********** Reading User Info ***************
+00:21:15.908 [main] INFO  test.UserTests - **********User info  is displayed ***************
+00:21:15.912 [main] INFO  test.UserTests - ********** Updating user ***********
+00:21:17.623 [main] INFO  test.UserTests - ********** User Updated ***********
+00:21:21.722 [main] INFO  test.UserTests - *************** Deleting User **************
+00:21:23.697 [main] INFO  test.UserTests - *********** User Deleted ***************
+00:21:23.710 [main] INFO  test.StoreTests - ***************** order is creating ********************
+00:21:26.005 [main] INFO  test.StoreTests - ***************** order is created ********************
+00:21:26.011 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+00:21:27.771 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+00:21:27.776 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+00:21:29.550 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+00:24:32.650 [main] INFO  test.UserTests - *********** Creating User ************
+00:24:35.463 [main] INFO  test.UserTests - ************* User is Created ***************
+00:24:35.469 [main] INFO  test.UserTests - ********** Reading User Info ***************
+00:24:37.220 [main] INFO  test.UserTests - **********User info  is displayed ***************
+00:24:37.223 [main] INFO  test.UserTests - ********** Updating user ***********
+00:24:38.885 [main] INFO  test.UserTests - ********** User Updated ***********
+00:24:40.305 [main] INFO  test.UserTests - *************** Deleting User **************
+00:24:41.651 [main] INFO  test.UserTests - *********** User Deleted ***************
+00:25:39.259 [main] INFO  test.UserTests - *********** Creating User ************
+00:25:42.357 [main] INFO  test.UserTests - ************* User is Created ***************
+00:25:42.361 [main] INFO  test.UserTests - ********** Reading User Info ***************
+00:25:43.652 [main] INFO  test.UserTests - **********User info  is displayed ***************
+00:25:43.684 [main] INFO  test.UserTests - ********** Updating user ***********
+00:25:44.849 [main] INFO  test.UserTests - ********** User Updated ***********
+00:25:46.253 [main] INFO  test.UserTests - *************** Deleting User **************
+00:25:47.416 [main] INFO  test.UserTests - *********** User Deleted ***************
+00:26:49.671 [main] INFO  test.UserTests - *********** Creating User ************
+00:26:52.795 [main] INFO  test.UserTests - ************* User is Created ***************
+00:26:52.800 [main] INFO  test.UserTests - ********** Reading User Info ***************
+00:26:54.928 [main] INFO  test.UserTests - **********User info  is displayed ***************
+00:26:54.930 [main] INFO  test.UserTests - ********** Updating user ***********
+00:26:56.980 [main] INFO  test.UserTests - ********** User Updated ***********
+00:26:59.103 [main] INFO  test.UserTests - *************** Deleting User **************
+00:27:00.269 [main] INFO  test.UserTests - *********** User Deleted ***************
+00:55:40.464 [main] INFO  test.UserTests - *********** Creating User ************
+00:55:47.703 [main] INFO  test.UserTests - ************* User is Created ***************
+00:55:47.866 [main] INFO  test.UserTests - ********** Reading User Info ***************
+00:55:51.232 [main] INFO  test.UserTests - **********User info  is displayed ***************
+00:55:53.253 [main] INFO  test.UserTests - ********** Updating user ***********
+00:55:56.190 [main] INFO  test.UserTests - ********** User Updated ***********
+00:55:59.711 [main] INFO  test.UserTests - *************** Deleting User **************
+00:56:07.599 [main] INFO  test.UserTests - *********** User Deleted ***************
+00:56:07.624 [main] INFO  test.StoreTests - ***************** order is creating ********************
+00:56:11.199 [main] INFO  test.StoreTests - ***************** order is created ********************
+00:56:11.209 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+00:56:14.635 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+00:56:14.640 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+00:56:18.170 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+01:01:24.136 [main] INFO  test.UserTests - *********** Creating User ************
+01:01:30.264 [main] INFO  test.UserTests - ************* User is Created ***************
+01:01:30.269 [main] INFO  test.UserTests - ********** Reading User Info ***************
+01:01:36.454 [main] INFO  test.UserTests - **********User info  is displayed ***************
+01:01:36.460 [main] INFO  test.UserTests - ********** Updating user ***********
+01:01:39.009 [main] INFO  test.UserTests - ********** User Updated ***********
+01:01:42.828 [main] INFO  test.UserTests - *************** Deleting User **************
+01:01:46.135 [main] INFO  test.UserTests - *********** User Deleted ***************
+01:01:46.151 [main] INFO  test.StoreTests - ***************** order is creating ********************
+01:01:48.762 [main] INFO  test.StoreTests - ***************** order is created ********************
+01:01:48.767 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+01:01:51.522 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+01:01:51.527 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+01:01:53.964 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+00:14:17.972 [main] INFO  test.UserTests - *********** Creating User ************
+00:15:03.089 [main] INFO  test.UserTests - ************* User is Created ***************
+00:15:03.093 [main] INFO  test.UserTests - ********** Reading User Info ***************
+00:15:46.288 [main] INFO  test.UserTests - **********User info  is displayed ***************
+00:15:46.292 [main] INFO  test.UserTests - ********** Updating user ***********
+00:16:29.880 [main] INFO  test.UserTests - ********** User Updated ***********
+00:17:13.489 [main] INFO  test.UserTests - *************** Deleting User **************
+00:17:56.793 [main] INFO  test.UserTests - *********** User Deleted ***************
+00:17:56.817 [main] INFO  test.StoreTests - ***************** order is creating ********************
+00:18:40.007 [main] INFO  test.StoreTests - ***************** order is created ********************
+00:18:40.014 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+00:19:23.850 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+00:19:23.854 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+00:20:07.406 [main] INFO  test.StoreTests - ***************** order is deleted ********************
+00:22:22.944 [main] INFO  test.UserTests - *********** Creating User ************
+00:23:00.337 [main] INFO  test.UserTests - ************* User is Created ***************
+00:23:00.341 [main] INFO  test.UserTests - ********** Reading User Info ***************
+00:23:03.624 [main] INFO  test.UserTests - **********User info  is displayed ***************
+00:23:03.628 [main] INFO  test.UserTests - ********** Updating user ***********
+00:23:08.665 [main] INFO  test.UserTests - ********** User Updated ***********
+00:23:10.558 [main] INFO  test.UserTests - *************** Deleting User **************
+00:23:13.171 [main] INFO  test.UserTests - *********** User Deleted ***************
+00:23:13.182 [main] INFO  test.StoreTests - ***************** order is creating ********************
+00:23:15.419 [main] INFO  test.StoreTests - ***************** order is created ********************
+00:23:15.424 [main] INFO  test.StoreTests - ***************** Reading order Info ********************
+00:23:17.629 [main] INFO  test.StoreTests - ***************** order Info Displayed  ********************
+00:23:17.633 [main] INFO  test.StoreTests - ***************** order is deleting ********************
+00:23:20.134 [main] INFO  test.StoreTests - ***************** order is deleted ********************

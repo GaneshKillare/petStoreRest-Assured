@@ -3,17 +3,23 @@ package test;
 import java.util.Date;
 
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.impl.ExtendedClassInfo;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
 
 import endpoints.UserEndPoints;
 import io.restassured.response.Response;
 import payload.User;
+import utilities.ExtentReportManager;
 
 public class UserTests {
+	ExtentReportManager extent ;
 	Faker faker;
 	payload.User userpayload;
 	public Logger logger; // for log
@@ -22,6 +28,7 @@ public class UserTests {
 	public void setUpData() {
 		faker = new Faker();
 		userpayload = new User();
+		extent = new ExtentReportManager();
 
 		userpayload.setId(faker.idNumber().hashCode());
 		userpayload.setUsername(faker.name().username());
@@ -32,12 +39,15 @@ public class UserTests {
 		userpayload.setPhone(faker.phoneNumber().cellPhone());
 		logger = org.apache.logging.log4j.LogManager.getLogger(this.getClass());
 	}
+	
+	
 
 	@Test
-	public void testPostUser() {
+	public void testPostUser() throws JsonProcessingException {
 		logger.info("*********** Creating User ************");
 		Response response = UserEndPoints.createUser(userpayload);
-		response.then().log().all();
+		//response.then().log().all();
+		 String log = response.then().log().all().toString();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("************* User is Created ***************");
 	}
@@ -46,9 +56,10 @@ public class UserTests {
 	public void testGetUserByName() {
 		logger.info("********** Reading User Info ***************");
 		Response response = UserEndPoints.readUser(this.userpayload.getUsername());
-		response.then().log().all();
+		//response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("**********User info  is displayed ***************");
+		String log = response.then().log().all().toString();
 	}
 
 	@Test(priority = 3)
@@ -64,7 +75,7 @@ public class UserTests {
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("********** User Updated ***********");
-
+		String log = response.then().log().all().toString();
 		// checking data after update
 		Response responseAfterUpdate = UserEndPoints.readUser(this.userpayload.getUsername());
 		Assert.assertEquals(responseAfterUpdate.getStatusCode(), 200);
@@ -78,4 +89,6 @@ public class UserTests {
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("*********** User Deleted ***************");
 	}
+
+	
 }

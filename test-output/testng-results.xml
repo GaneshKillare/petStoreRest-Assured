@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-11T08:58:33 IST" name="Suite" finished-at="2023-03-11T08:58:52 IST" duration-ms="19014">
+  <suite started-at="2023-03-22T00:22:21 IST" name="Suite" finished-at="2023-03-22T00:23:20 IST" duration-ms="58225">
     <groups>
     </groups>
-    <test started-at="2023-03-11T08:58:33 IST" name="Test" finished-at="2023-03-11T08:58:52 IST" duration-ms="19014">
+    <test started-at="2023-03-22T00:22:21 IST" name="Test" finished-at="2023-03-22T00:23:20 IST" duration-ms="58225">
       <class name="test.UserTests">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:test.UserTests@53045c6c]" started-at="2023-03-11T08:58:33 IST" name="setUpData" finished-at="2023-03-11T08:58:34 IST" duration-ms="874" status="PASS">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:test.UserTests@7bba5817]" started-at="2023-03-22T00:22:22 IST" name="setUpData" finished-at="2023-03-22T00:22:22 IST" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method signature="testPostUser()[pri:0, instance:test.UserTests@53045c6c]" started-at="2023-03-11T08:58:34 IST" name="testPostUser" finished-at="2023-03-11T08:58:39 IST" duration-ms="5002" status="PASS">
+        <test-method signature="json()[pri:0, instance:test.UserTests@7bba5817]" started-at="2023-03-22T00:22:22 IST" name="json" finished-at="2023-03-22T00:22:22 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- json -->
+        <test-method signature="testPostUser()[pri:0, instance:test.UserTests@7bba5817]" started-at="2023-03-22T00:22:22 IST" name="testPostUser" finished-at="2023-03-22T00:23:00 IST" duration-ms="37398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testGetUserByName()[pri:2, instance:test.UserTests@53045c6c]" started-at="2023-03-11T08:58:39 IST" name="testGetUserByName" finished-at="2023-03-11T08:58:40 IST" duration-ms="1878" status="PASS">
+        <test-method signature="testGetUserByName()[pri:2, instance:test.UserTests@7bba5817]" started-at="2023-03-22T00:23:00 IST" name="testGetUserByName" finished-at="2023-03-22T00:23:03 IST" duration-ms="3285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserByName -->
-        <test-method signature="testUpdateUserByName()[pri:3, instance:test.UserTests@53045c6c]" started-at="2023-03-11T08:58:40 IST" name="testUpdateUserByName" finished-at="2023-03-11T08:58:44 IST" duration-ms="3666" status="PASS">
+        <test-method signature="testUpdateUserByName()[pri:3, instance:test.UserTests@7bba5817]" started-at="2023-03-22T00:23:03 IST" name="testUpdateUserByName" finished-at="2023-03-22T00:23:10 IST" duration-ms="6927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUserByName -->
-        <test-method signature="testDeleteUserByName()[pri:4, instance:test.UserTests@53045c6c]" started-at="2023-03-11T08:58:44 IST" name="testDeleteUserByName" finished-at="2023-03-11T08:58:46 IST" duration-ms="2134" status="PASS">
+        <test-method signature="testDeleteUserByName()[pri:4, instance:test.UserTests@7bba5817]" started-at="2023-03-22T00:23:10 IST" name="testDeleteUserByName" finished-at="2023-03-22T00:23:13 IST" duration-ms="2614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUserByName -->
       </class> <!-- test.UserTests -->
       <class name="test.StoreTests">
-        <test-method is-config="true" signature="setData()[pri:0, instance:test.StoreTests@33065d67]" started-at="2023-03-11T08:58:46 IST" name="setData" finished-at="2023-03-11T08:58:46 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setData()[pri:0, instance:test.StoreTests@4b29d1d2]" started-at="2023-03-22T00:23:13 IST" name="setData" finished-at="2023-03-22T00:23:13 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method signature="testPostOrder()[pri:0, instance:test.StoreTests@33065d67]" started-at="2023-03-11T08:58:46 IST" name="testPostOrder" finished-at="2023-03-11T08:58:48 IST" duration-ms="1810" status="PASS">
+        <test-method signature="testPostOrder()[pri:0, instance:test.StoreTests@4b29d1d2]" started-at="2023-03-22T00:23:13 IST" name="testPostOrder" finished-at="2023-03-22T00:23:15 IST" duration-ms="2238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostOrder -->
-        <test-method signature="testGetOrder()[pri:1, instance:test.StoreTests@33065d67]" started-at="2023-03-11T08:58:48 IST" name="testGetOrder" finished-at="2023-03-11T08:58:50 IST" duration-ms="1743" status="PASS">
+        <test-method signature="testGetOrder()[pri:1, instance:test.StoreTests@4b29d1d2]" started-at="2023-03-22T00:23:15 IST" name="testGetOrder" finished-at="2023-03-22T00:23:17 IST" depends-on-methods="test.StoreTests.testPostOrder" duration-ms="2205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetOrder -->
-        <test-method signature="testDeleteOrder()[pri:2, instance:test.StoreTests@33065d67]" started-at="2023-03-11T08:58:50 IST" name="testDeleteOrder" finished-at="2023-03-11T08:58:52 IST" duration-ms="1831" status="PASS">
+        <test-method signature="testDeleteOrder()[pri:2, instance:test.StoreTests@4b29d1d2]" started-at="2023-03-22T00:23:17 IST" name="testDeleteOrder" finished-at="2023-03-22T00:23:20 IST" duration-ms="2503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteOrder -->
