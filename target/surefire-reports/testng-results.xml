@@ -1,51 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-12T14:47:53 IST" name="Suite" finished-at="2023-03-12T14:48:18 IST" duration-ms="24654">
+  <suite started-at="2023-06-04T17:35:39 IST" name="Suite" finished-at="2023-06-04T17:35:51 IST" duration-ms="12236">
     <groups>
     </groups>
-    <test started-at="2023-03-12T14:47:53 IST" name="Test" finished-at="2023-03-12T14:48:18 IST" duration-ms="24654">
+    <test started-at="2023-06-04T17:35:39 IST" name="Test" finished-at="2023-06-04T17:35:51 IST" duration-ms="12236">
       <class name="test.UserTests">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:test.UserTests@41a0aa7d]" started-at="2023-03-12T14:47:54 IST" name="setUpData" finished-at="2023-03-12T14:47:55 IST" duration-ms="1373" status="PASS">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:test.UserTests@6340e5f0]" started-at="2023-06-04T17:35:39 IST" name="setUpData" finished-at="2023-06-04T17:35:40 IST" duration-ms="828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method signature="testPostUser()[pri:0, instance:test.UserTests@41a0aa7d]" started-at="2023-03-12T14:47:55 IST" name="testPostUser" finished-at="2023-03-12T14:48:02 IST" duration-ms="6936" status="PASS">
+        <test-method signature="testPostUser()[pri:0, instance:test.UserTests@6340e5f0]" started-at="2023-06-04T17:35:40 IST" name="testPostUser" finished-at="2023-06-04T17:35:43 IST" duration-ms="3658" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.UserTests.testPostUser(UserTests.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testGetUserByName()[pri:2, instance:test.UserTests@41a0aa7d]" started-at="2023-03-12T14:48:02 IST" name="testGetUserByName" finished-at="2023-03-12T14:48:04 IST" duration-ms="1917" status="PASS">
+        <test-method signature="testGetUserByName()[pri:2, instance:test.UserTests@6340e5f0]" started-at="2023-06-04T17:35:43 IST" name="testGetUserByName" finished-at="2023-06-04T17:35:45 IST" duration-ms="1847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserByName -->
-        <test-method signature="testUpdateUserByName()[pri:3, instance:test.UserTests@41a0aa7d]" started-at="2023-03-12T14:48:04 IST" name="testUpdateUserByName" finished-at="2023-03-12T14:48:09 IST" duration-ms="4963" status="PASS">
+        <test-method signature="testUpdateUserByName()[pri:3, instance:test.UserTests@6340e5f0]" started-at="2023-06-04T17:35:45 IST" name="testUpdateUserByName" finished-at="2023-06-04T17:35:49 IST" duration-ms="3912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUserByName -->
-        <test-method signature="testDeleteUserByName()[pri:4, instance:test.UserTests@41a0aa7d]" started-at="2023-03-12T14:48:09 IST" name="testDeleteUserByName" finished-at="2023-03-12T14:48:11 IST" duration-ms="2166" status="PASS">
+        <test-method signature="testDeleteUserByName()[pri:4, instance:test.UserTests@6340e5f0]" started-at="2023-06-04T17:35:49 IST" name="testDeleteUserByName" finished-at="2023-06-04T17:35:51 IST" duration-ms="1753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUserByName -->
       </class> <!-- test.UserTests -->
-      <class name="test.StoreTests">
-        <test-method is-config="true" signature="setData()[pri:0, instance:test.StoreTests@1e6a3214]" started-at="2023-03-12T14:48:11 IST" name="setData" finished-at="2023-03-12T14:48:11 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method signature="testPostOrder()[pri:0, instance:test.StoreTests@1e6a3214]" started-at="2023-03-12T14:48:11 IST" name="testPostOrder" finished-at="2023-03-12T14:48:14 IST" duration-ms="2268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPostOrder -->
-        <test-method signature="testGetOrder()[pri:1, instance:test.StoreTests@1e6a3214]" started-at="2023-03-12T14:48:14 IST" name="testGetOrder" finished-at="2023-03-12T14:48:16 IST" depends-on-methods="test.StoreTests.testPostOrder" duration-ms="2473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetOrder -->
-        <test-method signature="testDeleteOrder()[pri:2, instance:test.StoreTests@1e6a3214]" started-at="2023-03-12T14:48:16 IST" name="testDeleteOrder" finished-at="2023-03-12T14:48:18 IST" duration-ms="1888" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteOrder -->
-      </class> <!-- test.StoreTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

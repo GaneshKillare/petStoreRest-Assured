@@ -27,11 +27,10 @@ public class StoreTests {
 		storepayload.setStatus("placed");
 		storepayload.setComplete(true);
 	}
-	@Test
+	@Test(priority = 0)
 	public void testPostOrder() {
 		logger.info("***************** order is creating ********************");
 	Response response = StoreOrderEndPoints.createStoreOrder(storepayload);
-			//response.then().log().all();
 			logger.info("***************** order is created ********************");
 	Assert.assertEquals(response.getStatusCode(), 200);
 	}

@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -13,6 +14,9 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class XLUtility {
 
@@ -24,6 +28,9 @@ public class XLUtility {
 	public XSSFCell cell;
 	public CellStyle style;   
 	String path;
+	ObjectMapper objMapper ;
+	
+	private static int rowCount = 0;
 	
 	public XLUtility(String path)
 	{
@@ -106,6 +113,47 @@ public class XLUtility {
 		fi.close();
 		fo.close();
 	}
+
+	public void writeDataCell(String sheetName, List<String> data) throws IOException {
+		int rownum;
+		int colnum = 0;
+		if (rowCount == 0) {
+
+		}
+		rownum = rowCount;
+
+		File xlfile = new File(path);
+		if (!xlfile.exists()) // If file not exists then create new file
+		{
+			workbook = new XSSFWorkbook();
+			fo = new FileOutputStream(path);
+			workbook.write(fo);
+		}
+
+		fi = new FileInputStream(path);
+		workbook = new XSSFWorkbook(fi);
+
+		if (workbook.getSheetIndex(sheetName) == -1) // If sheet not exists then create new Sheet
+			workbook.createSheet(sheetName);
+		sheet = workbook.getSheet(sheetName);
+
+		if (sheet.getRow(rownum) == null) // If row not exists then create new Row
+			sheet.createRow(rownum);
+		row = sheet.getRow(rownum);
+
+		for (String obj : data) {
+			cell = row.createCell(colnum);
+			cell.setCellValue(obj);
+			colnum++;
+		}
+		fo = new FileOutputStream(path);
+		rowCount++;
+		workbook.write(fo);
+		workbook.close();
+		fi.close();
+		fo.close();
+
+	}
 	
 	
 	public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException
@@ -149,5 +197,6 @@ public class XLUtility {
 		fi.close();
 		fo.close();
 	}
+	
 	
 }

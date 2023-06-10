@@ -1,0 +1,1006 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Test ExecutionReport</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test API Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 10, 2023 10:07:27 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Name test.UserTests - testPostUser</p>
+            <p class="text-sm">
+              <span>10:07:28 PM</span> / <span>00:00:08:177</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Name test.UserTests - testPostUser</h5>
+<span class='badge badge-success'>06.10.2023 10:07:28 PM</span>
+<span class='badge badge-danger'>06.10.2023 10:07:37 PM</span>
+<span class='badge badge-default'>00:00:08:177</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:34 PM</td>
+        <td>
+          <span class='badge white-text pink'>Endpoint is https://petstore.swagger.io/v2/user</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:34 PM</td>
+        <td>
+          <span class='badge white-text pink'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:34 PM</td>
+        <td>
+          <span class='badge white-text pink'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:34 PM</td>
+        <td>
+          <span class='badge white-text pink'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:35 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({"id":1407324654,"username":"taunya.runte","firstName":"Allegra","lastName":"Lind","email":"kirstie.deckow@example.com","password":"nr3896n","phone":"113.080.7902","userStatus":0}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:35 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:35 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Sat, 10 Jun 2023 16:37:58 GMT</td></tr><tr><td>Content-Type</td><td>application/json</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Access-Control-Allow-Methods</td><td>GET, POST, DELETE, PUT</td></tr><tr><td>Access-Control-Allow-Headers</td><td>Content-Type, api_key, Authorization</td></tr><tr><td>Server</td><td>Jetty(9.2.9.v20150224)</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:35 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:37 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({
+    "code": 200,
+    "type": "unknown",
+    "message": "1407324654"
+}); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Name test.UserTests - testGetUserByName</p>
+            <p class="text-sm">
+              <span>10:07:37 PM</span> / <span>00:00:05:084</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Name test.UserTests - testGetUserByName</h5>
+<span class='badge badge-success'>06.10.2023 10:07:37 PM</span>
+<span class='badge badge-danger'>06.10.2023 10:07:42 PM</span>
+<span class='badge badge-default'>00:00:05:084</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+          <span class='badge white-text pink'>Endpoint is http://localhost</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+          <span class='badge white-text pink'>Method is GET</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+          <span class='badge white-text pink'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Sat, 10 Jun 2023 16:38:03 GMT</td></tr><tr><td>Content-Type</td><td>application/json</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Access-Control-Allow-Methods</td><td>GET, POST, DELETE, PUT</td></tr><tr><td>Access-Control-Allow-Headers</td><td>Content-Type, api_key, Authorization</td></tr><tr><td>Server</td><td>Jetty(9.2.9.v20150224)</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:42 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({
+    "id": 1407324654,
+    "username": "taunya.runte",
+    "firstName": "Allegra",
+    "lastName": "Lind",
+    "email": "kirstie.deckow@example.com",
+    "password": "nr3896n",
+    "phone": "113.080.7902",
+    "userStatus": 0
+}); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Name test.UserTests - testUpdateUserByName</p>
+            <p class="text-sm">
+              <span>10:07:42 PM</span> / <span>00:00:02:126</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Name test.UserTests - testUpdateUserByName</h5>
+<span class='badge badge-success'>06.10.2023 10:07:42 PM</span>
+<span class='badge badge-danger'>06.10.2023 10:07:44 PM</span>
+<span class='badge badge-default'>00:00:02:126</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <span class='badge white-text pink'>Endpoint is https://petstore.swagger.io/v2/user/taunya.runte</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <span class='badge white-text pink'>Method is PUT</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <span class='badge white-text pink'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <span class='badge white-text pink'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-3'></div>
+ <script>
+  function jsonTreeCreate3() { 
+   document.getElementById('code-block-json-3').innerHTML = JSONTree.create({"id":1407324654,"username":"taunya.runte","firstName":"Fernande","lastName":"Kuhlman","email":"leland.white@example.com","password":"nr3896n","phone":"113.080.7902","userStatus":0}); 
+  }
+  jsonTreeCreate3();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Sat, 10 Jun 2023 16:38:08 GMT</td></tr><tr><td>Content-Type</td><td>application/json</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Access-Control-Allow-Methods</td><td>GET, POST, DELETE, PUT</td></tr><tr><td>Access-Control-Allow-Headers</td><td>Content-Type, api_key, Authorization</td></tr><tr><td>Server</td><td>Jetty(9.2.9.v20150224)</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:44 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create({
+    "code": 200,
+    "type": "unknown",
+    "message": "1407324654"
+}); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Name test.UserTests - testDeleteUserByName</p>
+            <p class="text-sm">
+              <span>10:07:44 PM</span> / <span>00:00:03:136</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Name test.UserTests - testDeleteUserByName</h5>
+<span class='badge badge-success'>06.10.2023 10:07:44 PM</span>
+<span class='badge badge-danger'>06.10.2023 10:07:47 PM</span>
+<span class='badge badge-default'>00:00:03:136</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+          <span class='badge white-text pink'>Endpoint is http://localhost</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+          <span class='badge white-text pink'>Method is DELETE</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+          <span class='badge white-text pink'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Sat, 10 Jun 2023 16:38:11 GMT</td></tr><tr><td>Content-Type</td><td>application/json</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Access-Control-Allow-Methods</td><td>GET, POST, DELETE, PUT</td></tr><tr><td>Access-Control-Allow-Headers</td><td>Content-Type, api_key, Authorization</td></tr><tr><td>Server</td><td>Jetty(9.2.9.v20150224)</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:47 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-5'></div>
+ <script>
+  function jsonTreeCreate5() { 
+   document.getElementById('code-block-json-5').innerHTML = JSONTree.create({
+    "code": 200,
+    "type": "unknown",
+    "message": "taunya.runte"
+}); 
+  }
+  jsonTreeCreate5();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Name test.StoreTests - testPostOrder</p>
+            <p class="text-sm">
+              <span>10:07:47 PM</span> / <span>00:00:03:487</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Name test.StoreTests - testPostOrder</h5>
+<span class='badge badge-success'>06.10.2023 10:07:47 PM</span>
+<span class='badge badge-danger'>06.10.2023 10:07:50 PM</span>
+<span class='badge badge-default'>00:00:03:487</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <span class='badge white-text pink'>Endpoint is https://petstore.swagger.io/v2/store/order</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <span class='badge white-text pink'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <span class='badge white-text pink'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Accept</td><td>application/json, application/javascript, text/javascript, text/json</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <span class='badge white-text pink'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-6'></div>
+ <script>
+  function jsonTreeCreate6() { 
+   document.getElementById('code-block-json-6').innerHTML = JSONTree.create({"id":834043233,"petID":834043233,"quantity":9,"date":"Thu Mar 24 03:02:00 IST 1994","status":"placed","complete":true}); 
+  }
+  jsonTreeCreate6();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Sat, 10 Jun 2023 16:38:15 GMT</td></tr><tr><td>Content-Type</td><td>application/json</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Access-Control-Allow-Methods</td><td>GET, POST, DELETE, PUT</td></tr><tr><td>Access-Control-Allow-Headers</td><td>Content-Type, api_key, Authorization</td></tr><tr><td>Server</td><td>Jetty(9.2.9.v20150224)</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-7'></div>
+ <script>
+  function jsonTreeCreate7() { 
+   document.getElementById('code-block-json-7').innerHTML = JSONTree.create({
+    "id": 834043233,
+    "petId": 0,
+    "quantity": 9,
+    "status": "placed",
+    "complete": true
+}); 
+  }
+  jsonTreeCreate7();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Name test.StoreTests - testGetOrder</p>
+            <p class="text-sm">
+              <span>10:07:50 PM</span> / <span>00:00:00:022</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Name test.StoreTests - testGetOrder</h5>
+<span class='badge badge-success'>06.10.2023 10:07:50 PM</span>
+<span class='badge badge-danger'>06.10.2023 10:07:50 PM</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <span class='badge white-text red'>Path parameters were not correctly defined. Redundant path parameters are: orderID=834043233. Undefined path parameters are: orderId.</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:07:50 PM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br> java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br> java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br> java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)<br> org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)<br> org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)<br> org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)<br> org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)<br> org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)<br> org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)<br> io.restassured.internal.RequestSpecificationImpl.assertCorrectNumberOfPathParams(RequestSpecificationImpl.groovy:1263)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br> java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.base/java.lang.reflect.Method.invoke(Method.java:566)<br> org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)<br> groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)<br> groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1369)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)<br> io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br> org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)<br> org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br> org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:176)<br> io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1147)<br> io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br> java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.base/java.lang.reflect.Method.invoke(Method.java:566)<br> org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)<br> groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)<br> groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1369)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)<br> io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br> org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)<br> org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)<br> io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)<br> io.restassured.filter.Filter$filter$0.call(Unknown Source)<br> org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)<br> io.restassured.filter.Filter$filter.call(Unknown Source)<br> io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br> io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)<br> io.restassured.filter.Filter$filter.call(Unknown Source)<br> org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)<br> io.restassured.filter.Filter$filter$0.call(Unknown Source)<br> io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br> io.restassured.filter.FilterContext$next.call(Unknown Source)<br> io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1686)<br> io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br> java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.base/java.lang.reflect.Method.invoke(Method.java:566)<br> org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)<br> groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)<br> groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1369)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)<br> io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br> org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)<br> org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br> org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)<br> io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1692)<br> io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br> java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.base/java.lang.reflect.Method.invoke(Method.java:566)<br> org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)<br> groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)<br> groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1369)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)<br> groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)<br> io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br> org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)<br> org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br> org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)<br> io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:176)<br> io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)<br> endpoints.StoreOrderEndPoints.readStoreOrder(StoreOrderEndPoints.java:33)<br> test.StoreTests.testGetOrder(StoreTests.java:41)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br> java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.base/java.lang.reflect.Method.invoke(Method.java:566)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br> org.testng.TestRunner.privateRun(TestRunner.java:806)<br> org.testng.TestRunner.run(TestRunner.java:601)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:433)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br> org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br> org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Name test.StoreTests - testDeleteOrder</p>
+            <p class="text-sm">
+              <span>10:07:50 PM</span> / <span>00:00:09:335</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Name test.StoreTests - testDeleteOrder</h5>
+<span class='badge badge-success'>06.10.2023 10:07:50 PM</span>
+<span class='badge badge-danger'>06.10.2023 10:08:00 PM</span>
+<span class='badge badge-default'>00:00:09:335</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+          <span class='badge white-text pink'>Endpoint is http://localhost</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+          <span class='badge white-text pink'>Method is DELETE</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+          <span class='badge white-text pink'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Accept</td><td>application/json, application/javascript, text/javascript, text/json</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Sat, 10 Jun 2023 16:38:20 GMT</td></tr><tr><td>Content-Type</td><td>application/json</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Access-Control-Allow-Methods</td><td>GET, POST, DELETE, PUT</td></tr><tr><td>Access-Control-Allow-Headers</td><td>Content-Type, api_key, Authorization</td></tr><tr><td>Server</td><td>Jetty(9.2.9.v20150224)</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+          <span class='badge white-text pink'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:00 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-8'></div>
+ <script>
+  function jsonTreeCreate8() { 
+   document.getElementById('code-block-json-8').innerHTML = JSONTree.create({
+    "code": 200,
+    "type": "unknown",
+    "message": "834043233"
+}); 
+  }
+  jsonTreeCreate8();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 10, 2023 10:07:27 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 10, 2023 10:08:00 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>6</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='85%'>
+<b>6</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='14%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='3%'><b>2</b> events failed,
+<b data-tooltip='%'>60</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Test Name test.UserTests - testPostUser":8.177,"Test Name test.UserTests - testGetUserByName":5.084,"Test Name test.UserTests - testUpdateUserByName":2.126,"Test Name test.UserTests - testDeleteUserByName":3.136,"Test Name test.StoreTests - testPostOrder":3.487,"Test Name test.StoreTests - testGetOrder":0.022,"Test Name test.StoreTests - testDeleteOrder":9.335
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>Pest Store Users API</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>Ganesh Killare</td>
+</tr>
+<tr>
+<td>Environemnt</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Ganesh</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 6,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 60
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

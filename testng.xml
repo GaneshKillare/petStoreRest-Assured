@@ -3,12 +3,13 @@
 <suite name="Suite">
 	<listeners>
 		<listener
-			class-name="utilities.ExtentReportManager" />
+			class-name="reporting.Setup" />
 	</listeners>
   <test thread-count="2" name="Test">
     <classes>
       <class name="test.UserTests"/>
       <class name="test.StoreTests"/>
+    <!-- <class name="test.StoreTests"/> -->  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
